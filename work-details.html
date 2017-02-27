@@ -10,34 +10,121 @@
 <meta charset="utf-8">
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Auro - Elegant, Minimal, Creative Bootstrap Template</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/flexslider.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/animate.min.css">
+<title>Ruby </title>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/dropdown.css">
+
 </head>
 
 <body>
 
 <!-- Header Section -->
-<section class="tophead" role="tophead"> 
+<section class="tophead" role="tophead">
+  <div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+      <div class="container-fluid">
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a href="#" class="brand">Project name</a>
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li>
+                    <a href="#">2-level Dropdown <i class="icon-arrow-right"></i></a>
+                    <ul class="dropdown-menu sub-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li class="nav-header">Nav header</li>
+                        <li><a href="#">Separated link</a></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="nav-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form action="" class="navbar-search pull-left">
+            <input type="text" placeholder="Search" class="search-query span2">
+          </form>
+          <ul class="nav pull-right">
+            <li><a href="#">Link</a></li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown">
+              <a class="#" href="#">Menu</a>
+            </li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div>
+  </div>
+</div>
+
+<hr>
+
+<ul class="nav nav-pills">
+<li class="active"><a href="#">Regular link</a></li>
+<li class="dropdown">
+  <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown <b class="caret"></b></a>
+  <ul class="dropdown-menu" id="menu1">
+    <li>
+        <a href="#">2-level Menu <i class="icon-arrow-right"></i></a>
+        <ul class="dropdown-menu sub-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li class="nav-header">Nav header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#">Menu</a>
+</li>
+<li class="dropdown">
+  <a href="#">Menu</a>
+</li>
+</ul>
+
   <!-- Navigation Section -->
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="#">Auro</a>
+    <div class="header-content clearfix"> <a class="logo" href="#">Ruby</a>
       <nav class="navigation" role="navigation">
         <ul class="primary-nav">
-          <li><a href="./l#header-slider">Home</a></li>
-          <li><a href="./#services">Our Services</a></li>
-          <li><a href="./#portfolio">Our Portfolio</a></li>
-          <li><a href="./#testimonials">Testimonials</a></li>
-          <li><a href="./#contact">Contact</a></li>
+          <!--  <li><a href="#header-slider">Home</a></li> -->
+            <!--<li><a href="#services">Our Services</a></li> -->
+            <li><a href="../index.html#collections">Our collections</a></li>
+            <!--<li><a href="#testimonials">Testimonials</a></li> -->
+            <li><a href="https://goo.gl/forms/tPqMyVzC4AktCSsQ2" target="_blank"> Order Now! </a></li>
+            <li><a href="https://goo.gl/forms/e4JlGdRFiu44RgBo1" target="_blank"> Order a Custom Design! </a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <a href="#" class="nav-toggle">Menu<span></span></a> </div>
   </header>
-  <!-- Navigation Section --> 
+  <!-- Navigation Section -->
 </section>
 <!-- Header Section -->
 <!-- work details section -->
@@ -46,7 +133,7 @@
     <div class="row">
       <div class="col-md-8 work-detail-margin detail-image">
         <div class="work-image">
-          <p> <img src="images/portfolio/work-1.jpg"></p>
+          <p> <img src="../images/coderCollection/binary123.png"></p>
           <p> <img src="images/portfolio/work-3.jpg"></p>
           <p> <img src="images/portfolio/work-5.jpg"></p>
         </div>
@@ -61,7 +148,7 @@
     </div>
   </div>
 </section>
-<!-- work details section --> 
+<!-- work details section -->
 
 <!-- Testimonials section -->
 <section id="testimonials" class="section testimonials no-padding">
@@ -106,19 +193,19 @@
     </div>
   </div>
 </section>
-<!-- Testimonials section --> 
+<!-- Testimonials section -->
 
 <!-- footer section -->
 <footer id="contact" class="footer">
   <div class="container-fluid">
     <div class="col-md-2 left">
       <h4>Office Location</h4>
-      <p> Collins Street West Victoria 8007 Australia.</p>
+      <p> 1128 Johnson Ave San Jose, CA United States </p>
     </div>
     <div class="col-md-2 left">
       <h4>Contact</h4>
-      <p> Call: 612.269.8419 <br>
-        Email : <a href="mailto:hello@agency.com"> hello@agency.com </a></p>
+      <p> Call: xxx.xxx.xxxx <br>
+        Email : <a href="mailto:hello@agency.com"> rubygraphics@gmail.com </a></p>
     </div>
     <div class="col-md-2 left">
       <h4>Social presense</h4>
@@ -130,19 +217,18 @@
       </ul>
     </div>
     <div class="col-md-6 right">
-      <p>© 2015 All rights reserved. All Rights Reserved<br>
-        Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
+      <p>© 2017 All rights reserved. All Rights Reserved</p>
     </div>
   </div>
 </footer>
-<!-- footer section --> 
+<!-- footer section -->
 
-<!-- JS FILES --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.flexslider-min.js"></script> 
-<script src="js/retina.min.js"></script> 
-<script src="js/modernizr.js"></script> 
-<script src="js/main.js"></script>
+<!-- JS FILES -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.flexslider-min.js"></script>
+<script src="../js/retina.min.js"></script>
+<script src="../js/modernizr.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
