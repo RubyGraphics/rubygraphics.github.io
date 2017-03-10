@@ -1,0 +1,38 @@
+http://cssslider.com/bootstrap-carousel-8.html
+
+http://www.jssor.com/download-bootstrap-carousel-slider-example.html
+
+http://www.bootply.com/mRbjbQ1JAB
+
+https://www.w3schools.com/bootstrap/bootstrap_modal.asp
+	modal:
+	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Modal Header</h4>
+		</div>
+		<div class="modal-body">
+			// stuff
+		</div>
+		<div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		</div>
+	</div>
+	// modal-lg or modal-sm
+
+
+http://ashleydw.github.io/lightbox/
+
+http://jsfiddle.net/6CR2H/1/
+
+https://www.w3schools.com/w3css/w3css_demo.asp
+
+remove borders from button 
+	padding: 0;
+	border: none;
+	background: none;
+
+
+
